@@ -36,4 +36,28 @@ int main()
 
     int secim = 1;
     char tus;
+
+    while (true) {
+        menuGoster(secim);
+        tus = _getch();
+
+        if (tus == -32) {
+            tus = _getch();
+            switch (tus) {
+            case 72:
+                if (secim > 1) secim--;
+                break;
+            case 80:
+                if (secim < 3) secim++;
+                break;
+            }
+        }
+        else if (tus == 13) {
+            if (secim == 3) {
+                cout << "program sonlandi." << endl;
+                break;
+            }
+            else if (secim == 1) {
+                system("cls");
+                cout << "Admin moduna girdiniz suallar yaradin:" << endl;
 }
