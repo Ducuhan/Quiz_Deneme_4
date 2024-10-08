@@ -60,4 +60,58 @@ int main()
             else if (secim == 1) {
                 system("cls");
                 cout << "Admin moduna girdiniz suallar yaradin:" << endl;
+
+
+
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "1.Suall: ";
+                getline(cin, sualar);
+                cout << "eminsinisze entere basi";
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "cavab: ";
+                getline(cin, cavab);
+
+
+
+
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "2.Suall: ";
+                getline(cin, sualar2);
+                cout << "eminsinisze entere basi";
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "cavab: ";
+                getline(cin, cavab2);
+
+
+
+
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "3.Suall: ";
+                getline(cin, sualar3);
+                cout << "eminsinisze entere basi";
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "cavab: ";
+                getline(cin, cavab3);
+
+
+
+
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "4.Suall: ";
+                getline(cin, sualar4);
+                cout << "eminsinisze entere basi";
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "cavab: ";
+                getline(cin, cavab4);
+
+
+
+
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "5.Suall: ";
+                getline(cin, sualar5);
+                cout << "eminsinisze entere basi";
+                cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+                cout << "cavab: ";
+                getline(cin, cavab5);
 }
