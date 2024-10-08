@@ -114,4 +114,87 @@ int main()
                 cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
                 cout << "cavab: ";
                 getline(cin, cavab5);
+
+
+
+
+                system("cls");
+                cout << "1.Admin" << endl;
+                cout << "2.Guest" << endl;
+                cout << "secim edin: ";
+                cin >> secim;
+                if (secim == 1) { "Suallar yaradilip deyise bilmesiniz."; }
+
+                system("cls");
+                cout << "siz guestsiniz." << endl;
+                cout << "1.sual: " << sualar << endl;
+                cout << "Cavab: ";
+                cin >> tru;
+                cout << endl;
+                if (tru == cavab) { cout << "dogru cavabdir." << endl << endl; }
+                else { cout << "yanlis cavabdir dogru olan cavab - " << cavab; }
+                cout << endl;
+                cout << endl;
+
+
+
+
+                cout << "2.sual: " << sualar2 << endl;
+                cout << "Cavab: ";
+                cin >> tru;
+                cout << endl;
+                if (tru == cavab2) { cout << "dogru cavabdir." << endl; }
+                else { cout << "yanlis cavabdir dogru olan cavab - " << cavab2; }
+                cout << endl;
+                cout << endl;
+
+
+
+                cout << "3.sual: " << sualar3 << endl;
+                cout << "Cavab: ";
+                cin >> tru;
+                cout << endl;
+                if (tru == cavab3) { cout << "dogru cavabdir." << endl; }
+                else { cout << "yanlis cavabdir dogru olan cavab - " << cavab3; }
+                cout << endl;
+                cout << endl;
+
+
+
+                cout << "4.sual: " << sualar4 << endl;
+                cout << "Cavab: ";
+                cin >> tru;
+                cout << endl;
+                if (tru == cavab4) { cout << "dogru cavabdir." << endl; }
+                else { cout << "yanlis cavabdir dogru olan cavab - " << cavab4; }
+                cout << endl;
+                cout << endl;
+
+
+
+                cout << "5.sual: " << sualar5 << endl;
+                cout << "Cavab: ";
+                cin >> tru;
+                cout << endl;
+                if (tru == cavab5) { cout << "dogru cavabdir." << endl; }
+                else { cout << "yanlis cavabdir dogru olan cavab - " << cavab5; }
+                cout << endl;
+                cout << endl;
+
+
+
+
+                system("pause");
+            }
+            else if (secim == 2) {
+                system("cls");
+                cout << "Guest moduna girdiniz." << endl;
+                cout << "Suallar yoxdur daha sonra gelin." << endl;
+                system("pause");
+            }
+        }
+    }
+
+    return 0;
+}
 }
