@@ -17,4 +17,23 @@ void menuGoster(int secim) {
 
 int main()
 {
+    string sualar;
+    string sualar2;
+    string sualar3;
+    string sualar4;
+    string sualar5;
+
+
+    string cavab;
+    string cavab2;
+    string cavab3;
+    string cavab4;
+    string cavab5;
+
+
+    string tru;
+
+
+    int secim = 1;
+    char tus;
 }
